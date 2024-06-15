@@ -30905,7 +30905,7 @@ break
 case 10:l=J.d(m,"7")||J.d(m,"9")?"SL Restaurent":"SL Food"
 case 9:s=12
 return A.z(n.V4("String","menu_type",l),$async$wR)
-case 12:k=J.d(l,"SL Restaurent")?"foodV2":"food"
+case 12:k=J.d(l,"SL Restaurent")?"foodV3":"food"
 d=$.br
 c=(d==null?$.br=$.db():d).dq("[DEFAULT]")
 A.bK(c,$.dq(),!0)
@@ -101668,7 +101668,7 @@ p=A.W(q).i("X<1,h2<k>>")
 j=A.BJ(B.Su,A.a1(new A.X(q,new A.as4(),p),!0,p.i("ak.E")),o.gaj9(),new A.as5(),k,j)
 k=o.f?o.galT():n
 q=t.p
-return A.mP(n,A.hm(B.bT,A.a([m,A.eg(new A.bj(B.d8,A.acr(A.d1(A.a([l,B.aHf,j,B.i_,A.e0(A.hD(B.aNL,k,A.i9(n,n,n,new A.be(new A.as6(),t.b),n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n)),n,1/0)],q),B.ay,B.al,B.cJ),o.d),n),n,n)],q),B.ac,B.aHy,n),n,n,n)}}
+return A.mP(n,A.hm(B.bT,A.a([m,A.eg(new A.bj(B.d8,A.acr(A.d1(A.a([l,B.aHf,j,B.i_,A.e0(A.hD(B.aNM,k,A.i9(n,n,n,new A.be(new A.as6(),t.b),n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n)),n,1/0)],q),B.ay,B.al,B.cJ),o.d),n),n,n)],q),B.ac,B.aHy,n),n,n,n)}}
 A.as3.prototype={
 $0(){var s=this.a
 s.e=this.b
@@ -101696,7 +101696,7 @@ r=A.q9(i,i,i,i,i,i,B.Kz)
 s=s.length===0?B.Ok:new A.bj(B.QU,A.afI(new A.a7k(n,h),n.length),i)
 o=A.aL_(B.fQ,1,2)
 m=t.p
-l=A.jm(A.a([B.aNT,A.aB("$"+B.p.a1(h.gNe(),2),i,i,i,i,B.pS,i,i)],m),B.ay,B.f2,B.at)
+l=A.jm(A.a([B.aNU,A.aB("$"+B.p.a1(h.gNe(),2),i,i,i,i,B.pS,i,i)],m),B.ay,B.f2,B.at)
 k=A.aL_(B.fQ,1,2)
 j=t.De
 j=A.i9(i,i,i,new A.bd(B.c1,j),i,i,i,i,new A.bd(B.O,j),i,i,i,i,i,i,i,i,i,i,i,i,i,i,i)
@@ -101770,7 +101770,7 @@ q=t.p
 p=A.W(s)
 o=p.i("X<1,n_>")
 r=A.q9(A.a([A.rd(n,B.u6,n,new A.atp(a),n,n)],q),B.ef,new A.S3(new A.cX(B.fB,n,n,new A.xY(A.a1(new A.X(s,new A.atq(),o),!0,o.i("ak.E")),!0,B.Mn,B.O,B.L,B.aL,n),n),B.aHe,n),!0,B.L,new A.eA(new A.atr(),n),r)
-o=A.aMG(A.a([B.Qz,A.k3(n,B.S9,n,n,A.aB(this.d,n,n,n,n,n,n,n),B.aNF,n),A.k3(n,B.u6,new A.ats(a),n,n,B.Kz,n),A.k3(n,B.Sh,new A.att(a),n,n,B.aNG,n)],q),B.aL,n,!1)
+o=A.aMG(A.a([B.Qz,A.k3(n,B.S9,n,n,A.aB(this.d,n,n,n,n,n,n,n),B.aNG,n),A.k3(n,B.u6,new A.ats(a),n,n,B.Kz,n),A.k3(n,B.Sh,new A.att(a),n,n,B.aNH,n)],q),B.aL,n,!1)
 p=p.i("X<1,rY>")
 return A.aKS(A.mP(r,A.hm(B.bT,A.a([A.cz(n,n,B.R,n,n,B.Mo,n,n,n,n,n,n,n),A.aOz(A.a1(new A.X(s,new A.atu(),p),!0,p.i("ak.E")))],q),B.ac,B.bW,n),new A.Of(o,n),B.tT,n),l)}}
 A.ath.prototype={
@@ -102063,7 +102063,7 @@ break
 case 1:return A.w(q,r)}})
 return A.x($async$Ir,r)},
 J(a){var s=null
-return new A.yz(A.mP(A.q9(s,s,s,s,s,s,B.aNA),A.P7(new A.aeZ(this),this.v3(),t.a),s,s,s),new A.af_(this,a),s)}}
+return new A.yz(A.mP(A.q9(s,s,s,s,s,s,B.aNB),A.P7(new A.aeZ(this),this.v3(),t.a),s,s,s),new A.af_(this,a),s)}}
 A.aeU.prototype={
 $1(a){var s,r=a.qW(0)
 r.toString
@@ -102122,7 +102122,7 @@ a2=A.aB(a2,a4,a4,a4,a4,new A.p(!0,a4,a4,a4,a4,a4,10,a4,a4,a4,a4,a4,a4,a4,a4,a4,a
 a3=B.z.k(a1.f)
 a3=A.aB(a3,a4,a4,a4,a4,new A.p(!0,a4,a4,a4,a4,a4,10,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4),a4,a4)
 a1=a1.b
-b.push(new A.fs(A.a([new A.bj(new A.aD(8,8,8,8),a2,a4),new A.eS(B.ak,a4,a4,a3,a4),new A.eS(B.ak,a4,a4,A.aB("$"+a1,a4,a4,a4,a4,new A.p(!0,a4,a4,a4,a4,a4,10,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4),a4,a4),a4)],c)))}return new A.bj(B.bs,A.FR(A.d1(A.a([o,n,m,B.dj,l,B.JW,k,j,i,h,g,B.dj,f,B.JW,A.aOA(d,b,e),B.dj,A.jm(A.a([A.aB("Total Price: $"+A.e(J.M9(q.h(s,"total_price"),2)),a4,a4,a4,a4,A.dg(a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,12,a4,a4,B.cd,a4,a4,!0,a4,a4,a4,a4,a4,a4,a4,a4),a4,a4)],c),B.ay,B.hG,B.at),B.dj,A.aB("Payment Method: "+A.e(q.h(s,"payment_method")),a4,a4,a4,a4,A.dg(a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,10,a4,a4,B.cd,a4,a4,!0,a4,a4,a4,a4,a4,a4,a4,a4),a4,a4),A.aB("Payment Option: "+A.e(q.h(s,"payment_option")),a4,a4,a4,a4,A.dg(a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,10,a4,a4,a4,a4,a4,!0,a4,a4,a4,a4,a4,a4,a4,a4),a4,a4),B.dj,A.aB("Thank you for your order!",a4,a4,a4,a4,A.dg(a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,10,a4,a4,B.cd,a4,a4,!0,a4,a4,a4,a4,a4,a4,a4,a4),a4,a4),B.dj,A.eg(A.hD(B.aNw,new A.aeY(r,a5,s),a4),a4,a4)],c),B.cm,B.al,B.at),a4,B.aD,a4,a4,B.b2),a4)},
+b.push(new A.fs(A.a([new A.bj(new A.aD(8,8,8,8),a2,a4),new A.eS(B.ak,a4,a4,a3,a4),new A.eS(B.ak,a4,a4,A.aB("$"+a1,a4,a4,a4,a4,new A.p(!0,a4,a4,a4,a4,a4,10,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4),a4,a4),a4)],c)))}return new A.bj(B.bs,A.FR(A.d1(A.a([o,n,m,B.dj,l,B.JW,k,j,i,h,g,B.dj,f,B.JW,A.aOA(d,b,e),B.dj,A.jm(A.a([A.aB("Total Price: $"+A.e(J.M9(q.h(s,"total_price"),2)),a4,a4,a4,a4,A.dg(a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,12,a4,a4,B.cd,a4,a4,!0,a4,a4,a4,a4,a4,a4,a4,a4),a4,a4)],c),B.ay,B.hG,B.at),B.dj,A.aB("Payment Method: "+A.e(q.h(s,"payment_method")),a4,a4,a4,a4,A.dg(a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,10,a4,a4,B.cd,a4,a4,!0,a4,a4,a4,a4,a4,a4,a4,a4),a4,a4),A.aB("Payment Option: "+A.e(q.h(s,"payment_option")),a4,a4,a4,a4,A.dg(a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,10,a4,a4,a4,a4,a4,!0,a4,a4,a4,a4,a4,a4,a4,a4),a4,a4),B.dj,A.aB("Thank you for your order!",a4,a4,a4,a4,A.dg(a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,10,a4,a4,B.cd,a4,a4,!0,a4,a4,a4,a4,a4,a4,a4,a4),a4,a4),B.dj,A.eg(A.hD(B.aNx,new A.aeY(r,a5,s),a4),a4,a4)],c),B.cm,B.al,B.at),a4,B.aD,a4,a4,B.b2),a4)},
 $S:627}
 A.aeY.prototype={
 $0(){return this.a.zE(this.b,this.c)},
@@ -102380,20 +102380,20 @@ m.push(A.jm(A.a([l,B.hZ,k,B.hZ,A.m5(A.BJ(B.SA,A.a1(new A.X(p,new A.aCi(),i),!0,i
 m=d.zk(A.d1(m,B.ay,B.al,B.at))
 j=d.zk(A.tM(d.w,B.Sz,c,c,1,c,c,B.b5,c))
 i=d.zk(A.d1(A.a([B.aNX,B.aT,A.tM(d.x,B.Sy,c,c,5,c,c,B.b5,c)],n),B.cm,B.al,B.at))
-k=A.a([B.aNK],n)
+k=A.a([B.aNL],n)
 if(d.ax==="SL Food")k.push(A.k3(c,A.x2(d.y,new A.aC4(d),"online",a),c,c,c,B.aNi,c))
 k.push(A.k3(c,A.x2(d.y,new A.aC5(d),"delivery",a),c,c,c,B.aNh,c))
 k.push(B.bV)
 if(d.y!=null){l=A.a([B.aNo],n)
 if(d.y==="online"){h=A.CC("assets/images/binance.png",c,36,36)
 g=d.z
-h=A.k3(c,A.x2(g,new A.aC6(d),"Binance",a),c,c,c,B.aNv,h)
+h=A.k3(c,A.x2(g,new A.aC6(d),"Binance",a),c,c,c,B.aNw,h)
 f=A.CC("assets/images/hpay.png",c,36,36)
 f=A.k3(c,A.x2(g,new A.aC7(d),"Huione",a),c,c,c,B.aNp,f)
 e=A.CC("assets/images/aba.jpg",c,36,36)
 B.l.M(l,A.a([h,f,A.k3(c,A.x2(g,new A.aC8(d),"ABA",a),c,c,c,B.aNd,e)],n))}if(d.y==="delivery"){h=A.a([],n)
 if(d.ax==="SL Food")h.push(A.k3(c,A.x2(d.z,new A.aC9(d),"Cash",a),c,c,c,B.aNq,c))
-h.push(A.k3(c,A.x2(d.z,new A.aCa(d),"Card",a),c,c,c,B.aNW,c))
+h.push(A.k3(c,A.x2(d.z,new A.aCa(d),"Online",a),c,c,c,B.aNv,c))
 B.l.M(l,h)}B.l.M(k,l)}a=d.zk(A.d1(k,B.cm,B.al,B.at))
 l=t.De
 l=A.i9(c,c,c,new A.bd(B.c1,l),c,c,c,c,new A.bd(B.O,l),c,c,c,c,c,c,c,c,c,c,c,c,c,c,c)
@@ -102613,7 +102613,7 @@ B.l.a4(s.a)
 s.a7()},
 $S:0}
 A.ajj.prototype={
-$1(a){return A.aK1(A.a([A.Uu(B.aNt,new A.ajh(a),null),A.Uu(B.aNM,new A.aji(a),null)],t.p),B.aND,B.aN7)},
+$1(a){return A.aK1(A.a([A.Uu(B.aNt,new A.ajh(a),null),A.Uu(B.aNN,new A.aji(a),null)],t.p),B.aNE,B.aN7)},
 $S:225}
 A.ajh.prototype={
 $0(){return A.dC(this.a,!1).qd("SL Restaurent")},
@@ -102801,7 +102801,7 @@ return A.x($async$zd,r)},
 amT(){var s=this.c
 s.toString
 A.aSv(new A.aBo(this),s,t.z)},
-J(a){var s,r,q,p,o,n,m,l=this,k=null,j=A.q9(k,k,k,k,k,k,B.aNO)
+J(a){var s,r,q,p,o,n,m,l=this,k=null,j=A.q9(k,k,k,k,k,k,B.aNP)
 if(l.CW)s=B.eB
 else{s=l.ay
 r=l.ax
@@ -102817,8 +102817,8 @@ o=A.tM(l.e,B.Sw,k,k,1,k,k,B.b5,new A.aBy())
 p=A.b1N(new A.aBz(),new A.aBA(l),new A.aBB(l),A.aOG(!0,k,!1,l.f,k,k,2,B.Sv,!0,!0,!0,k,k,k,B.pP,k,k,1,k,!1,k,k,k,k,B.iG,k,B.b5,k,B.lz,k,k),new A.aBC(),p)
 r=A.tM(l.r,B.Sx,k,B.aIK,1,k,k,B.b5,new A.aBD())
 m=l.x
-m=m==null?B.aNU:new A.oh(A.aH2(k,k,new A.oy(m,1)),k,k,k,k,150,k,B.d9,k,k,B.ak,B.cG,!1,k)
-n=new A.bj(B.d8,A.acr(A.d1(A.a([s,q,o,p,r,B.i_,m,B.i_,A.hD(B.aNC,l.gaky(),k),B.i_,A.jm(A.a([B.aNb,new A.Uc(l.as,new A.aBE(l),k)],n),B.ay,B.al,B.at),B.i_,A.hD(B.aNa,l.galU(),k)],n),B.ay,B.al,B.at),l.d),k)
+m=m==null?B.aNV:new A.oh(A.aH2(k,k,new A.oy(m,1)),k,k,k,k,150,k,B.d9,k,k,B.ak,B.cG,!1,k)
+n=new A.bj(B.d8,A.acr(A.d1(A.a([s,q,o,p,r,B.i_,m,B.i_,A.hD(B.aND,l.gaky(),k),B.i_,A.jm(A.a([B.aNb,new A.Uc(l.as,new A.aBE(l),k)],n),B.ay,B.al,B.at),B.i_,A.hD(B.aNa,l.galU(),k)],n),B.ay,B.al,B.at),l.d),k)
 s=n}return A.mP(j,s,k,k,k)}}
 A.aBg.prototype={
 $0(){var s=this.b.gkc(),r=A.W(s).i("X<1,k>")
@@ -102880,7 +102880,7 @@ s.v2()},
 $S:0}
 A.aBo.prototype={
 $1(a){var s=null,r=this.a,q=A.aHl(!0,B.e6,!1,s,!0,B.ac,s,A.aSy(),r.w,s,s,s,s,s,2,B.SF,B.aD,!0,s,!0,s,!1,s,s,s,s,s,s,s,s,1,s,s,!1,"\u2022",s,s,s,s,s,!1,s,!1,s,!0,s,B.iG,s,s,B.dT,B.dr,s,s,s,s,s,s,s,B.b5,s,B.lz,s,s,s,s)
-return A.aK1(A.a([A.Uu(B.aNB,new A.aBn(r,a),s),A.hD(B.aNr,r.ga9B(),s)],t.p),q,B.aNJ)},
+return A.aK1(A.a([A.Uu(B.aNC,new A.aBn(r,a),s),A.hD(B.aNr,r.ga9B(),s)],t.p),q,B.aNK)},
 $S:225}
 A.aBn.prototype={
 $0(){this.a.w.kO(0,B.i2)
@@ -102966,7 +102966,7 @@ return A.z(p.a.b1(0,q),$async$BO)
 case 2:return A.w(null,r)}})
 return A.x($async$BO,r)},
 J(a){var s,r,q,p=this,o=null,n="[DEFAULT]",m="menu_type",l="timestamp",k=p.d,j=t.fo,i=t.De,h=t.p
-i=A.q9(A.a([new A.o0(A.a1(new A.X(A.a(["SL Restaurent","SL Food"],t.s),new A.aCy(),j),!0,j.i("ak.E")),k,o,o,new A.aCz(p),o,o,8,o,o,o,o,24,!1,!1,48,o,o,!1,o,o,o,o,B.dQ,o,o,!1,!1,o,t.Af),A.hD(B.aNE,new A.aCA(a),A.i9(o,o,o,new A.bd(B.c1,i),o,o,o,o,new A.bd(B.O,i),o,o,o,o,o,o,o,o,o,o,o,o,o,o,o))],h),o,B.aIm,o,o,o,B.aNs)
+i=A.q9(A.a([new A.o0(A.a1(new A.X(A.a(["SL Restaurent","SL Food"],t.s),new A.aCy(),j),!0,j.i("ak.E")),k,o,o,new A.aCz(p),o,o,8,o,o,o,o,24,!1,!1,48,o,o,!1,o,o,o,o,B.dQ,o,o,!1,!1,o,t.Af),A.hD(B.aNF,new A.aCA(a),A.i9(o,o,o,new A.bd(B.c1,i),o,o,o,o,new A.bd(B.O,i),o,o,o,o,o,o,o,o,o,o,o,o,o,o,o))],h),o,B.aIm,o,o,o,B.aNs)
 k=$.br
 s=(k==null?$.br=$.db():k).dq(n)
 k=$.dq()
@@ -103064,7 +103064,7 @@ s=2
 return A.z(A.aNT(new A.ahZ(j)),$async$zF)
 case 2:return A.w(null,r)}})
 return A.x($async$zF,r)},
-J(a){var s=null,r=A.q9(s,s,s,s,s,s,B.aNV),q=$.br,p=(q==null?$.br=$.db():q).dq("[DEFAULT]")
+J(a){var s=null,r=A.q9(s,s,s,s,s,s,B.aNW),q=$.br,p=(q==null?$.br=$.db():q).dq("[DEFAULT]")
 A.bK(p,$.dq(),!0)
 q=A.h4(new A.cw(p))
 return A.mP(r,A.P7(new A.ai3(this),A.hZ(q,q.gdl().eY("orders")).i4(this.c).hQ(0),t.Pi),s,s,s)}}
@@ -103115,7 +103115,7 @@ B.l.M(q,A.a1(new A.X(r,new A.ai0(),p),!0,p.i("ak.E")))
 p=t.p
 q.push(new A.fs(A.a([B.aDE,B.pC,B.pC,new A.bj(B.bs,A.eg(A.aB("$"+B.p.a1(n.a,2),o,o,o,o,o,o,o),o,o),o)],p)))
 n=t.De
-return A.d1(A.a([A.aOA(m,q,o),B.bV,A.eg(A.hD(B.aNN,new A.ai1(this.a,a,this.b,r),A.i9(o,o,o,new A.bd(B.c1,n),o,o,o,o,new A.bd(B.O,n),o,o,o,o,o,o,o,o,o,o,o,o,o,o,o)),o,o)],p),B.ay,B.al,B.at)},
+return A.d1(A.a([A.aOA(m,q,o),B.bV,A.eg(A.hD(B.aNO,new A.ai1(this.a,a,this.b,r),A.i9(o,o,o,new A.bd(B.c1,n),o,o,o,o,new A.bd(B.O,n),o,o,o,o,o,o,o,o,o,o,o,o,o,o,o)),o,o)],p),B.ay,B.al,B.at)},
 $S:645}
 A.ai_.prototype={
 $1(a){var s,r=a.qW(0)
@@ -107353,8 +107353,8 @@ B.aRR=new A.a5y(0,"unknown")
 B.fB=new A.ef(-1,0)
 B.cd=new A.j6(6)
 B.dl=new A.p(!0,null,null,null,null,null,16,B.cd,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aNx=new A.bc("Delivery Time",null,B.dl,null,null,null,null,null,null,null)
-B.Lz=new A.cX(B.fB,null,null,B.aNx,null)
+B.aNy=new A.bc("Delivery Time",null,B.dl,null,null,null,null,null,null,null)
+B.Lz=new A.cX(B.fB,null,null,B.aNy,null)
 B.qH=new A.ef(1,1)
 B.tT=new A.OR(null)
 B.LA=new A.cX(B.qH,null,null,B.tT,null)
@@ -107815,8 +107815,8 @@ B.Oi=new A.v0(null,null,null,null,null,null,null)
 B.mx=new A.v1(null)
 B.aNj=new A.bc("Error loading invoice",null,null,null,null,null,null,null,null,null)
 B.Oj=new A.eS(B.ak,null,null,B.aNj,null)
-B.aNQ=new A.bc("Your cart is empty",null,null,null,null,null,null,null,null,null)
-B.Ok=new A.eS(B.ak,null,null,B.aNQ,null)
+B.aNR=new A.bc("Your cart is empty",null,null,null,null,null,null,null,null,null)
+B.Ok=new A.eS(B.ak,null,null,B.aNR,null)
 B.eB=new A.eS(B.ak,null,null,B.ip,null)
 B.RZ=new A.el(57946,!1)
 B.Sj=new A.e5(B.RZ,50,B.ef,null,null)
@@ -113063,8 +113063,8 @@ B.pc=new A.iG(null,null)
 B.cQ=new A.Vb(1,"down")
 B.OA=new A.Na(null)
 B.hZ=new A.hR(8,null,null,null)
-B.aNH=new A.bc("@SLFood",null,null,null,null,null,null,null,null,null)
-B.azd=A.a(s([B.OA,B.hZ,B.aNH]),t.p)
+B.aNI=new A.bc("@SLFood",null,null,null,null,null,null,null,null,null)
+B.azd=A.a(s([B.OA,B.hZ,B.aNI]),t.p)
 B.aFi=new A.Fh(B.bj,B.al,B.at,B.ay,null,B.cQ,null,B.azd,null)
 B.aFj=new A.Fm(1333)
 B.pd=new A.Fm(2222)
@@ -113303,16 +113303,16 @@ B.K_=new A.lf(5,"timeout")
 B.aHm=new A.xI(null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.aN8=new A.bc("Please upload an image",null,null,null,null,null,null,null,null,null)
 B.aHn=new A.js(B.aN8,null,null,null,null,null,null,null,null,null,null,null,null,B.cY,null,null,null,B.ac,null)
-B.aNI=new A.bc('Online payment failed. Please use the "Pay on Delivery" option',null,null,null,null,null,null,null,null,null)
-B.aHo=new A.js(B.aNI,B.ef,null,null,null,null,null,null,null,null,null,null,null,B.cY,null,null,null,B.ac,null)
+B.aNJ=new A.bc('Online payment failed. Please use the "Pay on Delivery" option',null,null,null,null,null,null,null,null,null)
+B.aHo=new A.js(B.aNJ,B.ef,null,null,null,null,null,null,null,null,null,null,null,B.cY,null,null,null,B.ac,null)
 B.aNl=new A.bc("Please select a payment method and option",null,null,null,null,null,null,null,null,null)
 B.aHp=new A.js(B.aNl,null,null,null,null,null,null,null,null,null,null,null,null,B.cY,null,null,null,B.ac,null)
-B.aNy=new A.bc("Data uploaded successfully",null,null,null,null,null,null,null,null,null)
-B.aHq=new A.js(B.aNy,null,null,null,null,null,null,null,null,null,null,null,null,B.cY,null,null,null,B.ac,null)
+B.aNz=new A.bc("Data uploaded successfully",null,null,null,null,null,null,null,null,null)
+B.aHq=new A.js(B.aNz,null,null,null,null,null,null,null,null,null,null,null,null,B.cY,null,null,null,B.ac,null)
 B.aNn=new A.bc("Order confirmed",null,null,null,null,null,null,null,null,null)
 B.aHr=new A.js(B.aNn,null,null,null,null,null,null,null,null,null,null,null,null,B.cY,null,null,null,B.ac,null)
-B.aNR=new A.bc("Building number saved!",null,null,null,null,null,null,null,null,null)
-B.aHs=new A.js(B.aNR,null,null,null,null,null,null,null,null,null,null,null,null,B.cY,null,null,null,B.ac,null)
+B.aNS=new A.bc("Building number saved!",null,null,null,null,null,null,null,null,null)
+B.aHs=new A.js(B.aNS,null,null,null,null,null,null,null,null,null,null,null,null,B.cY,null,null,null,B.ac,null)
 B.K0=new A.TM(0,"permissive")
 B.aSa=new A.TM(1,"normal")
 B.i0=new A.G0(null,null,null,null,!1)
@@ -113393,12 +113393,12 @@ B.K9=new A.aoL(0,"top")
 B.aSb=new A.aoM(2,"top")
 B.aNm=new A.bc("Item",null,B.cP,null,null,null,null,null,null,null)
 B.aDA=new A.bj(B.bs,B.aNm,null)
-B.aNS=new A.bc("Quantity",null,B.cP,null,null,null,null,null,null,null)
-B.aDz=new A.bj(B.bs,B.aNS,null)
-B.aNP=new A.bc("Unit Price",null,B.cP,null,null,null,null,null,null,null)
-B.aDB=new A.bj(B.bs,B.aNP,null)
-B.aNz=new A.bc("Total",null,B.cP,null,null,null,null,null,null,null)
-B.aDC=new A.bj(B.bs,B.aNz,null)
+B.aNT=new A.bc("Quantity",null,B.cP,null,null,null,null,null,null,null)
+B.aDz=new A.bj(B.bs,B.aNT,null)
+B.aNQ=new A.bc("Unit Price",null,B.cP,null,null,null,null,null,null,null)
+B.aDB=new A.bj(B.bs,B.aNQ,null)
+B.aNA=new A.bc("Total",null,B.cP,null,null,null,null,null,null,null)
+B.aDC=new A.bj(B.bs,B.aNA,null)
 B.azS=A.a(s([B.aDA,B.aDz,B.aDB,B.aDC]),t.p)
 B.aIp=new A.fs(B.azS)
 B.aSc=new A.aoO(1,"max")
@@ -113757,28 +113757,28 @@ B.aNr=new A.bc("Add",null,null,null,null,null,null,null,null,null)
 B.aNs=new A.bc("View Orders",null,null,null,null,null,null,null,null,null)
 B.aNt=new A.bc("SL Restaurent",null,null,null,null,null,null,null,null,null)
 B.aNu=new A.bc("Billing Details",null,null,null,null,null,null,null,null,null)
-B.aNv=new A.bc("Binance",null,null,null,null,null,null,null,null,null)
+B.aNv=new A.bc("Online",null,null,null,null,null,null,null,null,null)
+B.aNw=new A.bc("Binance",null,null,null,null,null,null,null,null,null)
 B.aL6=new A.p(!0,null,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aNw=new A.bc("Download Invoice as PDF",null,B.aL6,null,null,null,null,null,null,null)
-B.aNA=new A.bc("Invoice",null,null,null,null,null,null,null,null,null)
+B.aNx=new A.bc("Download Invoice as PDF",null,B.aL6,null,null,null,null,null,null,null)
+B.aNB=new A.bc("Invoice",null,null,null,null,null,null,null,null,null)
 B.Ky=new A.bc("Error loading image",null,null,null,null,null,null,null,null,null)
-B.aNB=new A.bc("Cancel",null,null,null,null,null,null,null,null,null)
-B.aNC=new A.bc("Pick Image",null,null,null,null,null,null,null,null,null)
-B.aND=new A.bc("Please select whether you want the inside or outside menu.",null,null,null,null,null,null,null,null,null)
-B.aNE=new A.bc("Add Food",null,null,null,null,null,null,null,null,null)
+B.aNC=new A.bc("Cancel",null,null,null,null,null,null,null,null,null)
+B.aND=new A.bc("Pick Image",null,null,null,null,null,null,null,null,null)
+B.aNE=new A.bc("Please select whether you want the inside or outside menu.",null,null,null,null,null,null,null,null,null)
+B.aNF=new A.bc("Add Food",null,null,null,null,null,null,null,null,null)
 B.Kz=new A.bc("Cart",null,null,null,null,null,null,null,null,null)
-B.aNF=new A.bc("Location",null,null,null,null,null,null,null,null,null)
-B.aNG=new A.bc("Contact Us",null,null,null,null,null,null,null,null,null)
-B.aNJ=new A.bc("Add New Category",null,null,null,null,null,null,null,null,null)
-B.aNK=new A.bc("How would you like to pay?",null,B.dl,null,null,null,null,null,null,null)
-B.aNL=new A.bc("Continue",null,null,null,null,null,null,null,null,null)
-B.aNM=new A.bc("SL Food",null,null,null,null,null,null,null,null,null)
-B.aNN=new A.bc("Print Invoice",null,null,null,null,null,null,null,null,null)
-B.aNO=new A.bc("Upload Items",null,null,null,null,null,null,null,null,null)
-B.aNT=new A.bc("Subtotal:",null,B.pS,null,null,null,null,null,null,null)
-B.aNU=new A.bc("No image selected. Please ensure you select background-less .png images for optimal quality.",null,null,null,null,null,null,null,null,null)
-B.aNV=new A.bc("Order Details",null,null,null,null,null,null,null,null,null)
-B.aNW=new A.bc("Card",null,null,null,null,null,null,null,null,null)
+B.aNG=new A.bc("Location",null,null,null,null,null,null,null,null,null)
+B.aNH=new A.bc("Contact Us",null,null,null,null,null,null,null,null,null)
+B.aNK=new A.bc("Add New Category",null,null,null,null,null,null,null,null,null)
+B.aNL=new A.bc("How would you like to pay?",null,B.dl,null,null,null,null,null,null,null)
+B.aNM=new A.bc("Continue",null,null,null,null,null,null,null,null,null)
+B.aNN=new A.bc("SL Food",null,null,null,null,null,null,null,null,null)
+B.aNO=new A.bc("Print Invoice",null,null,null,null,null,null,null,null,null)
+B.aNP=new A.bc("Upload Items",null,null,null,null,null,null,null,null,null)
+B.aNU=new A.bc("Subtotal:",null,B.pS,null,null,null,null,null,null,null)
+B.aNV=new A.bc("No image selected. Please ensure you select background-less .png images for optimal quality.",null,null,null,null,null,null,null,null,null)
+B.aNW=new A.bc("Order Details",null,null,null,null,null,null,null,null,null)
 B.aNX=new A.bc("Order notes (optional)",null,B.dl,null,null,null,null,null,null,null)
 B.aSe=new A.UL(0,"system")
 B.aNY=new A.UL(2,"dark")
