@@ -31562,7 +31562,7 @@ break
 case 10:l=J.d(m,"7")||J.d(m,"9")?"SL Restaurent":"SL Food"
 case 9:s=12
 return A.u(n.Ws("String","menu_type",l),$async$xi)
-case 12:k=J.d(l,"SL Restaurent")?"foodV2":"food"
+case 12:k=J.d(l,"SL Restaurent")?"foodV3":"food"
 d=$.b8
 c=(d==null?$.b8=$.cC():d).cA("[DEFAULT]")
 A.bx(c,$.cP(),!0)
